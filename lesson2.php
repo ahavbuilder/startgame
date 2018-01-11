@@ -4,51 +4,41 @@ $a = 1;
 $b = 1;
 
 
-if($a > $x)
+if ($a > $x)
 
-    {
-        echo 'задуманное число НЕ входит в числовой ряд';}
-else($a < $x)
 {
-        echo ($a < $x)
+    echo 'задуманное число НЕ входит в числовой ряд';
+}
+// elseif ($a < $x)
+// {
+//   echo "$a < $x";
+// }
+else {
+  echo "$a < $x";
 }
 
-if($a == $x)
+
+if ($a == $x)
 {
-        echo 'задуманное число входит в числовой ряд';}
-else($a == $x)
-{
-        echo ($a == $x)
+    echo 'задуманное число входит в числовой ряд';
+  }
+// elseif ($a != $x)
+// {
+//   echo "$a != $x";
+// }
+// else {
+//   echo "$a != $x";
+// }
+while ($a < $x) {
+  echo "$x";
+break;
 }
+switch ($a + $b){
+  case 0:
+  echo "$x";
+  break;
 
-$myArr = array(
-         $a
-         $b
-         $x => $a
-)
-              {
-
-
-        }
-while($a < count($myArr);
-        echo $x. "<br/>";
-do{
-        echo $x. "<br/>"
-  $x = $a + $b;
-}while($x = $a + $b);{
-        echo $x;}
-while($x == $b)
-
-
-
-
-
-
-
-
-
-
-
-
-
- ?>
+  case 1:
+  echo "$b = $X";
+  continue;
+}
