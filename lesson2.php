@@ -2,12 +2,13 @@
 $x = rand(0,100);
 $a = 1;
 $b = 1;
+$c = 1;
 
 
 while ($a < $x) {
-    echo "$x = $a";
-    echo "$a = $a + $b";
-    echo "$b = $a + $X";
+      $c = $a;
+      $a = $a + $b;
+      $b = $c;
 }
 
 
