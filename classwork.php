@@ -6,9 +6,12 @@ class News
     public $wecalltopresident = 'Мы позвонили президенту';
     public $endofbeginning = 'Это начало конца!';
 
-    public function __construct($goodnews) {
+    public function __construct($goodnews,$badnews,$wecalltopresident,$endofbeginning) {
 
         $this->goodnews = $goodnews;
+        $this->badnews = $badnews;
+        $this->wecalltopresident = $wecalltopresident;
+        $this->endofbeginning = $endofbeginning;
 
 
     }
